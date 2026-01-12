@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  --color-ligth-gray: #888;
+  --color-dark-blue: #1a1a3d;
+  --color-seni-dark-blue: #2a0458;
+  
+  --font-oswald: "PixelifySans", "sans-serif";
+}
+
+  @font-face {
+    font-family: "PixelifySans";
+    src: url(/fonts/PixelifySans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
