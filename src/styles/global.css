@@ -2,10 +2,15 @@
 
 @theme {
   --color-ligth-gray: #888;
-  --color-dark-blue: #1a1a3d;
-  --color-seni-dark-blue: #2a0458;
+  --color-dark-blue: #07011A;
+  --color-semi-dark-blue: #2a0458;
+  --color-dark-blue-o:#0d0231;
   
   --font-oswald: "PixelifySans", "sans-serif";
+  
+  --shadow-blue:0 0 25px blueviolet;
+  --animate-reveal: reveal linear both;
+  --animate-reveal-buttom: reveal-buttom linear both;
 }
 
   @font-face {
@@ -14,3 +19,23 @@
     font-weight: normal;
     font-style: normal;
   }
+  @keyframes reveal{
+    0%{
+      opacity: .3;
+      transform: translateY(100px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes reveal-buttom {
+  0% {
+    transform: scale(0) translateY(16px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
