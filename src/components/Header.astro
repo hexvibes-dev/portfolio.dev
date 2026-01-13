@@ -1,45 +1,43 @@
-<header class="mt-5 absolute top-0 left-0 w-full px-[9%] py-4 bg-transparent drop-shadow-lg flex justify-between items-center z-50">
-  <a 
-    href="#" 
-    class="text-3xl text-blue-900 font-extrabold font-serif transition-transform duration-500 ease-in-out hover:scale-110 cursor-pointer"
-  >
-    Emilio
-  </a>
-  <nav class="flex gap-16 text-white text-xl font-medium">
-    <a 
-      href="#" 
-      class="transition-all duration-300 border-b-4 border-transparent hover:text-purple-800 hover:border-purple-800 text-purple-800"
-    >
-      Home
-    </a>
-    <a 
-      href="#services" 
-      class="transition-all duration-300 border-b-4 border-transparent hover:text-purple-800 hover:border-purple-800"
-    >
-      Services
-    </a>
-    <a 
-      href="#skills" 
-      class="transition-all duration-300 border-b-4 border-transparent hover:text-purple-800 hover:border-purple-800"
-    >
-      Skills
-    </a>
-    <a 
-      href="#proyectos" 
-      class="transition-all duration-300 border-b-4 border-transparent hover:text-purple-800 hover:border-purple-800"
-    >
-      Experience
-    </a>
-    <a 
-      href="#" 
-      class="transition-all duration-300 border-b-4 border-transparent hover:text-purple-800 hover:border-purple-800"
-    >
-      Contact
-    </a>
+<div id="inicio"></div>
+<header class="w-full px-[9%] py-4 mt-5 absolute top-0 left-0 bg-transparent drop-shadow-lg flex justify-between items-center z-50 max-[995px]:relative max-[995px]:h-[120px] max-[995px]:overflow-visible max-[995px]:px-4">
+  <h1 
+  class="text-2xl text-blue-600 font-extrabold cursor-pointer font-serif hover-scale-h1 active:scale-95">
+    Emilio.dev
+  </h1>
+  <nav class="flex gap-16 text-white text-[1.8rem] font-medium max-[995px]:flex-col max-[995px]:gap-2 max-[995px]:absolute max-[995px]:top-3 max-[995px]:right-3">
+    <a href="#" class="border-b-[2px] border-transparent text-semi-dark-blue hover-scale active:scale-95 hover-underline-purple text-xl">Home</a>
+    <a href="#services" class="border-b-[2px] border-transparent hover-scale active:scale-95 hover-underline-purple text-xl">Services</a>
+    <a href="#skills" class="border-b-[2px] border-transparent hover-scale active:scale-95 hover-underline-purple text-xl">Skills</a>
+    <a href="#proyectos" class="border-b-[2px] border-transparent hover-scale active:scale-95 hover-underline-purple text-xl">Experience</a>
   </nav>
-  <div id="contact-popup" class="hidden flex-col gap-2 text-white text-lg">
-    <a href="mailto:e491339491339@gmail.com" target="_blank">Gmail</a>
-    <a href="https://wa.me/53375206" target="_blank">WhatsApp</a>
-    <a href="https://instagram.com/tuusuario" target="_blank">Instagram</a>
+  <div id="contact-popup" class="hidden fixed top-[80px] right-5 bg-[#1a1a3d] border-2 border-violet-600 rounded-xl p-4 flex-col gap-4 z-[1001]">
+    <a href="mailto:e491339491339@gmail.com" target="_blank" class="bg-[#2a0458] text-white px-4 py-2 rounded-md hover:bg-purple-800 hover:shadow-[0_0_10px_blueviolet] transition">Gmail</a>
+    <a href="https://wa.me/53375206" target="_blank" class="bg-[#2a0458] text-white px-4 py-2 rounded-md hover:bg-purple-800 hover:shadow-[0_0_10px_blueviolet] transition">WhatsApp</a>
+    <a href="https://instagram.com/tuusuario" target="_blank" class="bg-[#2a0458] text-white px-4 py-2 rounded-md hover:bg-purple-800 hover:shadow-[0_0_10px_blueviolet] transition">Instagram</a>
   </div>
 </header>
+
+<style>
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  .hover-scale:hover {
+    transform: scale(1.2);
+    transform: translateX(-12px);
+  }
+  .hover-scale-h1 {
+    transition: transform 0.3s ease;
+  }
+  .hover-scale-h1:hover {
+    transform: scale(1.1);
+  }
+
+  .hover-underline-purple {
+    transition: all 0.3s ease;
+  }
+
+  .hover-underline-purple:hover {
+    color: rgb(87, 6, 192);
+    border-bottom: 2px solid rgb(87, 6, 192);
+  }
+</style>

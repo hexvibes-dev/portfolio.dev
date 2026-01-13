@@ -1,0 +1,56 @@
+<section id="services" class="px-6 py-16 text-white">
+  <div class="flex flex-col text-[1.5rem] font-serif">
+    <h4 class="reveal-buttom animate-reveal-buttom text-center text-5xl py-8 cursor-pointer service-title">
+      Services:
+    </h4>
+    <p class="reveal animate-reveal text-xl max-[995px]:text-left text-white/80 font-sans text-center font-cursive leading-relaxed">
+      Me especializo en llevar a producción tus ideas, adaptadas a cualquier dispositivo y contexto técnico.<br>
+      Desde la estética hasta la interacción, con cada detalle pensado para conectar con el usuario.
+    </p>
+    <div class="mt-10">
+      <ul>
+        <h5 class="reveal animate-reveal text-center text-3xl py-8 my-4 cursor-pointer font-sans service-subtitle">
+          Desarrollo Web Fronted
+        </h5>
+        <li class="text-xl text-center max-[995px]:text-left text-white/80 font-sans service-item">Interfaces limpias, responsivas y accesibles</li>
+        <li class="text-xl text-center max-[995px]:text-left text-white/80 font-sans service-item">Animaciones CSS</li>
+        <li class="text-xl text-center max-[995px]:text-left text-white/80 font-sans service-item">Optimización de rendimiento y carga visual</li>
+        <li class="text-xl text-center max-[995px]:text-left text-white/80 font-sans service-item">Integración de identidad visual</li>
+        <li class="text-xl text-center max-[995px]:text-left text-white/80 font-sans service-item">Scripts personalizados para flujos de trabajo</li>
+        <li class="text-xl text-center max-[995px]:text-left text-white/80 font-sans service-item">Seguridad y privacidad</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+  .reveal-buttom{
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+  }
+  .reveal{
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+  }
+  .service-title {
+    text-shadow: 0 0 25px blueviolet;
+    transition: transform 0.3s ease;
+  }
+
+  .service-title:hover {
+    transform: scale(1.05);
+  }
+
+  .service-subtitle {
+    text-shadow: 0 0 25px blueviolet;
+    transition: transform 0.3s ease;
+  }
+
+  .service-subtitle:hover {
+    transform: scale(1.05);
+  }
+
+  .service-item:hover {
+    color: blueviolet;
+  }
+</style>

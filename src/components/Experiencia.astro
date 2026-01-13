@@ -1,0 +1,61 @@
+<article id="proyectos" class="py-16 px-6 text-white">
+  <h3 class="text-3xl text-center font-bold font-sans cursor-pointer mb-12">
+    Proyectos 
+  </h3>
+
+  <div class="carousel-container flex gap-10 overflow-x-auto px-10 scroll-snap-x scroll-mandatory scroll-smooth pb-6 mb-2">
+    <div class="carousel-item w-[500px] max-sm:w-full flex-shrink-0 rounded-xl overflow-hidden shadow-blue transform rotate-y-[-10deg] cursor-pointer scroll-snap-align-center">
+      <video autoplay muted loop playsinline class="w-full h-full object-cover">
+        <source src="/vid/shop.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="carousel-item w-[500px] max-sm:w-full flex-shrink-0 rounded-xl overflow-hidden shadow-blue transform rotate-y-[-10deg] cursor-pointer scroll-snap-align-center">
+      <video autoplay muted loop playsinline class="w-full h-full object-cover">
+        <source src="/vid/2.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="carousel-item w-[500px] max-sm:w-full flex-shrink-0 rounded-xl overflow-hidden shadow-blue transform rotate-y-[-10deg] cursor-pointer scroll-snap-align-center">
+      <video autoplay muted loop playsinline class="w-full h-full object-cover">
+        <source src="/vid/3.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</article>
+
+<style>
+  .carousel-item {
+    transition: transform 0.3s ease;
+  }
+  .carousel-item:hover {
+    transform: rotateY(0deg) scale(1.05);
+  }
+
+  @media (max-width: 640px) {
+    .carousel-container::-webkit-scrollbar {
+      height: 8px;
+    }
+    .carousel-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .carousel-container::-webkit-scrollbar-thumb {
+      background-color: #7c3aed;
+      border-radius: 4px;
+    }
+    .carousel-container::-webkit-scrollbar-thumb:hover {
+      background-color: #a78bfa;
+    }
+    .carousel-container {
+      scrollbar-width: thin;
+      scrollbar-color: #7c3aed transparent;
+    }
+  }
+
+  @media (min-width: 641px) {
+    .carousel-container::-webkit-scrollbar {
+      display: none;
+    }
+    .carousel-container {
+      scrollbar-width: none;
+    }
+  }
+</style>
