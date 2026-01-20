@@ -10,6 +10,7 @@
   
   --shadow-blue:0 0 25px blueviolet;
   --animate-reveal: reveal linear both;
+  --animate-reveal2: reveal2 linear both;
   --animate-reveal-buttom: reveal-buttom linear both;
 }
 
@@ -27,6 +28,16 @@
     100%{
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+  @keyframes reveal2{
+    0%{
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0)
     }
   }
   @keyframes reveal-buttom {
