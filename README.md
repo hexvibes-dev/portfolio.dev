@@ -69,6 +69,6 @@
   <h2 style="color: #66ccff; margin-top: 2rem;">👤 Autor</h2>
   <p>
     <strong>Emilio</strong> — Desarrollador frontend apasionado por el diseño web, la accesibilidad y la experiencia de usuario :)<br />
-    📫 Contacto: <a href="mailto:e49134913@gmail.com" style="color: #99ccff;">Email</a>
+    📫 Contacto: <a href="mailto:kei.hexcode@gmail.com" style="color: #99ccff;">Email</a>
   </p>
 </section>
